@@ -1,19 +1,40 @@
 <div ng-controller="homeCtrl">
 
-  <div class="container row">
-    <div class="one column offset-by-eleven">login</div>
-    <div class="one column">usd</div>
-    <div class="one column">wishlist</div>
-    <div class="two columns">(000) $00000.00 usd</div>
+  <div id="actions" class="container row">
+    <div class="one column offset-by-nine">
+      <p class="actionText">login</p>
+    </div>
+    <div class="one column">
+      <p class="actionText"><span class="money">$</span> usd</p>
+    </div>
+    <div class="two columns">
+      <img class="heart" src="./images/heart.svg" /><p class="iconText" style="width: 84%">wishlist</p>
+    </div>
+    <div class="three columns">
+      <img class="shoppingCart" src="./images/shoppingCart.svg" /><p class="iconText" style="width: 89%">(000) $00000.00 usd</p>
+    </div>
   </div>
 
-  <div class="container row">
-    <div class="three columns">Naked Boutique</div>
-    <div class="one column">women</div>
-    <div class="one column">men</div>
-    <div class="two columns">personal shopper</div>
-    <div class="two columns">culture house</div>
-    <div class="two columns">search</div>
+  <div id="menu" class="container row">
+    <div class="two columns">
+      <img class="logo" src="./images/logo.png" />
+    </div>
+    <div class="menuLinkDiv two columns">
+      <a class="menuLink" href="#">women</a>
+    </div>
+    <div class="menuLinkDiv two columns">
+      <a class="menuLink" href="#">men</a>
+    </div>
+    <div class="menuLinkDiv three columns">
+      <a class="menuLink" href="#">personal shopper</a>
+    </div>
+    <div class="menuLinkDiv three columns">
+      <a class="menuLink" href="#">culture house</a>
+    </div>
+    <div class="menuLinkDiv four columns">
+      <input class="searchInput" type="text" placeholder="SEARCH" />
+      <img class="search" src="./images/search.svg" />
+    </div>
 
   </div>
 
@@ -37,21 +58,22 @@
 
   <div class="container row">
     <div class="two columns offset-by-seven">
-      <h1>conejito</h1>
+      <img class="rabbit" src="./images/rabbit.svg" />
     </div>
   </div>
 
   <div class="container row">
     <div class="five columns offset-by-four">
-      <input class="newsletterInput" type="text">
+      <p class="X">X</p>
+      <input class="newsletterInput" type="text" placeholder="enter your e-mail">
     </div>
-    <div class="one column">
-      <button type="submit">Woman</button>
+    <div class="four columns">
+      <button class="suscribeButton" type="submit">Woman</button>
+      <button class="suscribeButton" type="submit">Man</button>
     </div>
-    <div class="one column">
-      <button type="submit">Man</button>
+    <div class="three columns offset-by-six">
+      <p class="promoText">Suscribe to our newsletter</p>
     </div>
-    <div class="three columns offset-by-six">Suscribe to our newsletter</div>
   </div>
 
   <div class="container row">
