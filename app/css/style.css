@@ -111,6 +111,7 @@ ________________________________________________________________________________
     width: 95%;
     margin: 0 0 0 0;
     float: right;
+    font-size: 1em;
     border: none;
     border-bottom: 1px solid #000000;
   }
@@ -152,6 +153,61 @@ ________________________________________________________________________________
     background-color: lightgrey;
   }
 
+  /* shipping info row */
+  .shippingText{
+    text-align: center;
+    color: grey;
+  }
+
+  .suscribeLine{
+    border: none;
+    border-bottom: 1px solid red;
+  }
+
+  /* bottom links row */
+  .longGreyLine{
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+
+  #footerLinkDiv div{
+    text-align: center;
+  }
+
+  .footerLink:link, .footerLink:visited{
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    cursor: auto;
+  }
+
+  .footerLink:link:active, .footerLink:visited:active {
+    color: black;
+  }
+
+  .footerLink:hover{
+    color: black;
+  }
+
+  .socialIcon{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* all rights reserved row */
+  .rightsText{
+    text-align: center;
+    color: grey;
+  }
+
+  .hashtag{
+    text-align: center;
+    color: red;
+  }
 
 
 
