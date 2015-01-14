@@ -209,8 +209,52 @@ ________________________________________________________________________________
     color: red;
   }
 
+  /*
+  #SHOP
+  ________________________________________________________________________________*/
 
+  .categoryName{
+    font-size: 0.75em;
+    color: grey;
+  }
 
+  .product{
+    margin-bottom: 50px;
+  }
+
+  .product .image{
+    width: 100%;
+    height: auto;
+  }
+
+  .product .subcategory{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: red;
+    font-style: italic;
+  }
+
+  .product .name{
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: grey;
+  }
+
+  .product .price{
+    margin-top: 0;
+    color: grey;
+  }
+
+  #pagination .block{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+  }
+
+  #pagination img{
+    width: 25px;
+    height: 20px;
+  }
 
   /*
   #FONTS

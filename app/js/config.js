@@ -4,16 +4,40 @@ angular.module('nakedBoutique', [
 config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.otherwise('home');
 	$stateProvider.
-	state('home', {
-		url: '/home',
-		templateUrl: 'views/home-template.html',
-		controller: 'homeCtrl'
-	}).
-	state('second', {
-		url: '/second',
-		templateUrl: 'views/secondTemplate.html',
-		controller: 'secondCtrl'
-	});
+  state('home',{
+    url: '/home',
+    views:{
+      menu:{
+        templateUrl: 'views/menu-template.html',
+        controller: 'menuCtrl'
+      },
+      body:{
+        templateUrl: 'views/home-template.html',
+        controller: 'homeCtrl'
+      },
+      footer:{
+        templateUrl: 'views/footer-template.html',
+        controller: 'footerCtrl'
+      }
+    }
+  }).
+  state('shop',{
+    url: '/shop:category',
+    views:{
+      menu:{
+        templateUrl: 'views/menu-template.html',
+        controller: 'menuCtrl'
+      },
+      body:{
+        templateUrl: 'views/shop-template.html',
+        controller: 'homeCtrl'
+      },
+      footer:{
+        templateUrl: 'views/footer-template.html',
+        controller: 'footerCtrl'
+      }
+    }
+  });
 }]);
 
 
