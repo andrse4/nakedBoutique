@@ -74,8 +74,9 @@ ________________________________________________________________________________
   .search{
     width: 20%;
     height: 25px;
-    margin-top: 7%;
-    float: left;
+    position: relative;
+    top: -30px;
+    left: 100px;
   }
 
   /* carrousel row */
