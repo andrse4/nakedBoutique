@@ -71,12 +71,15 @@ ________________________________________________________________________________
     float: left;
   }
 
+  .searchButton{
+    background: none;
+    border: none;
+  }
+
   .search{
-    width: 20%;
-    height: 25px;
-    position: relative;
-    top: -30px;
-    left: 100px;
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
   }
 
   /* carrousel row */
