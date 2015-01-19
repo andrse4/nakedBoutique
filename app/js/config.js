@@ -37,6 +37,23 @@ config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRou
         controller: 'footerCtrl'
       }
     }
+  }).
+  state('product',{
+    url: '/product:id',
+    views:{
+      menu:{
+        templateUrl: 'views/menu-template.html',
+        controller: 'menuCtrl'
+      },
+      body:{
+        templateUrl: 'views/product-template.html',
+        controller: 'productCtrl'
+      },
+      footer:{
+        templateUrl: 'views/footer-template.html',
+        controller: 'footerCtrl'
+      }
+    }
   });
 }]);
 

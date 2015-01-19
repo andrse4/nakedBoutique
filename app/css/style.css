@@ -213,12 +213,34 @@ ________________________________________________________________________________
   #SHOP
   ________________________________________________________________________________*/
 
+  hr{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .group{
+    margin-bottom: 50px;
+  }
+
   .categoryName{
+    font-size: 0.80em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .subcategoryName{
+    margin-left: 10px;
     font-size: 0.75em;
     color: grey;
   }
 
+  .forSale{
+    color: red;
+  }
+
   .product{
+    height: 500px;
     margin-bottom: 50px;
   }
 
@@ -246,8 +268,8 @@ ________________________________________________________________________________
   }
 
   #pagination .block{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     float: left;
   }
 
@@ -255,6 +277,60 @@ ________________________________________________________________________________
     width: 25px;
     height: 20px;
   }
+
+  .saleTag{
+    width: 75px;
+    padding: 2px;
+    position: relative;
+    top: -440px;
+    left: 190px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: red;
+  }
+
+/*
+#PRODUCT
+________________________________________________________________________________*/
+
+  .breadcrumb p{
+    margin-right: 10px;
+    text-transform: uppercase;
+    float: left;
+  }
+
+  .name{
+    color: grey;
+    text-transform: none !important;
+  }
+
+  .productImage{
+    height: 180px;
+  }
+
+  .productImage img{
+    width: 100%;
+    height: auto;
+  }
+
+  .productImage img:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+  }
+
+  .related{
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .placeholder{
+    width: 100%;
+    height: auto;
+  }
+
+
 
   /*
   #FONTS
