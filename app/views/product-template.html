@@ -32,48 +32,66 @@
     <div class="seven columns">
       <img class="placeholder" src="./images/productplaceholder.png" />
     </div>
-    <div class="seven columns">
-      <h1>Arkatha Lilac Playsuit</h1>
-      <p>by <span>Arkatha</span></p>
-      <p class="price">$85.00 USD</p>
+    <div class="seven columns productInfo">
+      <h1 class="name">Arkatha Lilac Playsuit</h1>
+      <p class="madeby">by <span class="designer">Arkatha</span></p>
+      <h2 class="price">$85.00 <span class="currency">USD</span></h2>
       <hr>
-      <h2>Details</h2>
-      <p class="details">label. Arkatha.</p>
-      <p class="details">description. Look absolutely fresh & feminine wearing this sleeveless.</p>
-      <p class="details">playsuit designed by Arkatha.</p>
-      <p class="details">material. poly.</p>
-      <p class="details">color. lilac.</p>
-      <p class="details">washing directions. hand wash cold.</p>
-      <p class="details">made in Mexico.</p>
+      <h3 class="subtitle">Details</h3>
+      <p class="detail"><span class="label">label.</span> Arkatha.</p>
+      <p class="detail"><span class="label">description.</span> Look absolutely fresh & feminine wearing this sleeveless playsuit designed by Arkatha.</p>
+      <p class="detail"><span class="label">material.</span> poly.</p>
+      <p class="detail"><span class="label">color.</span> lilac.</p>
+      <p class="detail"><span class="label">washing directions.</span> hand wash cold.</p>
+      <br>
+      <p class="detail"><span class="label">made in</span> Mexico.</p>
       <hr>
-      <h2>Shipping</h2>
-      <p class="details">
+      <h3 class="subtitle">shipping</h3>
+      <p class="detail">
         Free shipping on all Mexico orders with purchase of $150 USD or more,
         and free shipping to USA and more Worldwide destinations on orders over $250 USD
       </p>
-      <p class="details"> View shipping policy </p>
+      <br>
+      <p class="detail"> View shipping policy </p>
       <hr>
-      <p>Select Size:</p>
-      <select>
-        <option>Small</option>
-        <option>Medium</option>
-        <option>Large</option>
-      </select>
-      <p>Quantity</p>
-      <button type="">-</button>
-      <label>10</label>
-      <button type="">+</button>
-      <button type="submit">Add to shopping cart</button>
-      <p>-OR-</p>
-      <button type="">Save to wishlist</button>
+      <div class="productRow">
+        <p class="inputLabel">Select Size:</p>
+        <div class="styled-select">
+          <select class="sizeSelect">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+          <img class="arrow" src="./images/downarrow.svg">
+        </div>
+      </div>
+      <div class="productRow">
+        <p class="inputLabel">Quantity:</p>
+        <button class="quantityButton" type="button">-</button>
+        <div class="quantity">100</div>
+        <button class="quantityButton" type="button">+</button>
+      </div>
+      <button class="longButton" type="button"> <img src="./images/buttonCart.svg"/>Add to shopping cart</button>
+      <div class="button-or">- OR - </div>
+      <button class="longButton" type="button"> <img src="./images/buttonHeart.svg"/>save to wishlist</button>
       <hr>
-      <h2>Share this</h2>
+      <h3 class="subtitle">share this</h3>
+      <div class="socialIcons">
+        <img class="socialIcon" src="./images/facebook.svg" />
+        <img class="socialIcon" src="./images/twitter.svg" />
+        <img class="socialIcon" src="./images/pinterest.svg" />
+        <img class="socialIcon" src="./images/instagram.svg" />
+        <img class="socialIcon" src="./images/googleplus.svg" />
+        <img class="socialIcon" src="./images/youtube.svg" />
+      </div>
       <hr>
-      <p>SKU: ARKA01</p>
-      <p>Tags: Fresh, Summer</p>
+      <div class="information">
+        <p>SKU: ARKA01</p>
+        <p>Tags: <span class="tags">Fresh, Summer</span></p>
+      </div>
     </div>
   </div>
-  
+
   <div class="container row">
     <hr>
     <div class="three columns offset-by-five"><p class="related">you may also like</p></div>
