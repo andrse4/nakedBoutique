@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="nakedBoutique">
+	<head>
+		<!-- STYLES-->
+		  <link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/iso-cube.css">
+	</head>
+	<body>
+		<div ui-view="menu"></div>
+		<div ui-view="body"></div>
+		<div ui-view="footer"></div>
+		<!-- ANGULAR -->
+		<script src="../bower_components/angular/angular.min.js"></script>
+		<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<!-- FIREBASE -->
+		<script src="../bower_components/firebase/firebase.js"></script>
+		<!-- ANGULARFIRE -->
+		<script src="../bower_components/angularfire/dist/angularfire.min.js"></script>
+		<!-- CONFIG -->
+		<script src="js/config.js"></script>
+		<!-- DIRECTIVES -->
+		<!-- FACTORIES -->
+		<!-- CONTROLLERS -->
+		<script src="js/controllers/homeCtrl.js"></script>
+		<script src="js/controllers/menuCtrl.js"></script>
+		<script src="js/controllers/footerCtrl.js"></script>
+		<script src="js/controllers/shopCtrl.js"></script>
+		<script src="js/controllers/productCtrl.js"></script>
+	</body>
+</html>
